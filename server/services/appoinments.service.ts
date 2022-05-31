@@ -1,4 +1,4 @@
-import AppointmentsDao from "../temp/appointments.dao";
+import AppointmentsDao from "../DAO/appointments.dao";
 import { ICrudAppointments } from "../interfaces/crud.appointment";
 import { ICreateAppointmentDto } from "../interfaces/create.appointment.dto";
 import { IPatchAppointmentDto } from "../interfaces/patch.appointment.dto";

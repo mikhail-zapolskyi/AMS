@@ -3,6 +3,6 @@ export interface ICrudUsers {
      create: (resource: any) => Promise<any>;
      putById: (id: string, resource: any) => Promise<string>;
      findById: (id: string) => Promise<any>;
-     deleteById: (id: string) => Promise<string>;
      patchById: (id: string, resource: any) => Promise<string>;
+     deleteById: (id: string) => Promise<any>;
 }

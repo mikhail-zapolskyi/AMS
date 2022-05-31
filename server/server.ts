@@ -34,13 +34,13 @@ routes.push(new AppointmentsRoutes(app))
 
 // middleware to log errors
 app.use(errorLogger);
-// this is a simple route to make sure everything is working properly
+
 
 server.listen(port, () => {
      const msg = `Server running at http://localhost:${port}`;
      
      routes.forEach((route: CommonRoutesConfig) => {
-          debugLog(`Routes configured for ${route.getName()}`);
+          debugLog(`Routes configured for ${route.getName()}`)
      });
      // our only exception to avoiding console.log(), because we
      // always want to know when the server is done starting up
