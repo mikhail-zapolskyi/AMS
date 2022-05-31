@@ -13,4 +13,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # docker files
-*/.data
+.data/
